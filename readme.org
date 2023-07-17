@@ -1,0 +1,38 @@
+#+TITLE: obj
+#+DESCRIPTION: the OBJ protocol
+
++ status :: experimental
+
+The purpose of this library is to provide PL-dependent /OOP
+primitives/. This mostly means classes but includes the other
+components such as generics,primitives,meta-objects,etc.
+
+The two languages we care about are lisp and rust. In Lisp we have
+CLOS and represent our custom classes with =defclass=. In Rust we use
+the =trait= keyword to create new interfaces, =struct= for data, and
+some proc-macros to fill in the gaps.
+
+* Abstract
+We describe OBJ as a collection of protocols. Protocols are sets of
+functionality which are associated and specialized on object types.
+* Protocols
+** Data
+*** SXP
+*** JSON
+*** CSV
+*** XML
+** Code
+** Query
+** Auth
+** Id
+** Location
+** Stack
+** Map
+** Debug
+** Stream
+** Frame
+** Sink
+** Pipe
+** Algebra
+** Conversion
+
